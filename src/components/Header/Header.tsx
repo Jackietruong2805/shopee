@@ -109,23 +109,131 @@ export default function Header() {
               </button>
             </div>
           </form>
-          <div className='col-span-1'>
-            <Link to='/'>
-              <svg
-                xmlns='http://www.w3.org/2000/svg'
-                fill='none'
-                viewBox='0 0 24 24'
-                strokeWidth={1.5}
-                stroke='currentColor'
-                className='w-8 h-8'
-              >
-                <path
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  d='M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z'
-                />
-              </svg>
-            </Link>
+          <div className='col-span-1 justify-self-end '>
+            <Popover
+              renderPopover={
+                <div className='relative bg-white border border-gray-200 rounded-sm shadow-md max-w-[400px] text-sm'>
+                  <div className='p-2'>
+                    <div className='text-gray-400 capitalize'>Sản phẩm mới thêm</div>
+                    <div className='mt-5'>
+                      <div className='flex mt-4'>
+                        <div className='flex-shrink-0'>
+                          <img
+                            src='https://down-vn.img.susercontent.com/file/vn-11134601-7r98o-llvr944k1xb3ea'
+                            alt='ảnh'
+                            className='object-cover w-11 h-11'
+                          />
+                        </div>
+                        <div className='flex-grow ml-2 overflow-hidden'>
+                          <div className='truncate'>
+                            Áo Sweater CUNA Áo Sweater Nam Nữ Form Rộng Chất Cotton Nỉ Ngoại Hàng Xuất Cao Cấp Trơn Cổ
+                            Tròn Dài Tay Local Brand
+                          </div>
+                        </div>
+                        <div className='flex-shrink-0 ml-2'>
+                          <span className='text-orange'>₫131.000</span>
+                        </div>
+                      </div>
+                      <div className='flex mt-4'>
+                        <div className='flex-shrink-0'>
+                          <img
+                            src='https://down-vn.img.susercontent.com/file/vn-11134601-7r98o-llvr944k1xb3ea'
+                            alt='ảnh'
+                            className='object-cover w-11 h-11'
+                          />
+                        </div>
+                        <div className='flex-grow ml-2 overflow-hidden'>
+                          <div className='truncate'>
+                            Áo Sweater CUNA Áo Sweater Nam Nữ Form Rộng Chất Cotton Nỉ Ngoại Hàng Xuất Cao Cấp Trơn Cổ
+                            Tròn Dài Tay Local Brand
+                          </div>
+                        </div>
+                        <div className='flex-shrink-0 ml-2'>
+                          <span className='text-orange'>₫131.000</span>
+                        </div>
+                      </div>
+                      <div className='flex mt-4'>
+                        <div className='flex-shrink-0'>
+                          <img
+                            src='https://down-vn.img.susercontent.com/file/vn-11134601-7r98o-llvr944k1xb3ea'
+                            alt='ảnh'
+                            className='object-cover w-11 h-11'
+                          />
+                        </div>
+                        <div className='flex-grow ml-2 overflow-hidden'>
+                          <div className='truncate'>
+                            Áo Sweater CUNA Áo Sweater Nam Nữ Form Rộng Chất Cotton Nỉ Ngoại Hàng Xuất Cao Cấp Trơn Cổ
+                            Tròn Dài Tay Local Brand
+                          </div>
+                        </div>
+                        <div className='flex-shrink-0 ml-2'>
+                          <span className='text-orange'>₫131.000</span>
+                        </div>
+                      </div>
+                      <div className='flex mt-4'>
+                        <div className='flex-shrink-0'>
+                          <img
+                            src='https://down-vn.img.susercontent.com/file/vn-11134601-7r98o-llvr944k1xb3ea'
+                            alt='ảnh'
+                            className='object-cover w-11 h-11'
+                          />
+                        </div>
+                        <div className='flex-grow ml-2 overflow-hidden'>
+                          <div className='truncate'>
+                            Áo Sweater CUNA Áo Sweater Nam Nữ Form Rộng Chất Cotton Nỉ Ngoại Hàng Xuất Cao Cấp Trơn Cổ
+                            Tròn Dài Tay Local Brand
+                          </div>
+                        </div>
+                        <div className='flex-shrink-0 ml-2'>
+                          <span className='text-orange'>₫131.000</span>
+                        </div>
+                      </div>
+                      <div className='flex mt-4'>
+                        <div className='flex-shrink-0'>
+                          <img
+                            src='https://down-vn.img.susercontent.com/file/vn-11134601-7r98o-llvr944k1xb3ea'
+                            alt='ảnh'
+                            className='object-cover w-11 h-11'
+                          />
+                        </div>
+                        <div className='flex-grow ml-2 overflow-hidden'>
+                          <div className='truncate'>
+                            Áo Sweater CUNA Áo Sweater Nam Nữ Form Rộng Chất Cotton Nỉ Ngoại Hàng Xuất Cao Cấp Trơn Cổ
+                            Tròn Dài Tay Local Brand
+                          </div>
+                        </div>
+                        <div className='flex-shrink-0 ml-2'>
+                          <span className='text-orange'>₫131.000</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className='flex items-center justify-between mt-6'>
+                      <div className='text-xs text-gray-500 capitalize'>Thêm vào giỏ hàng</div>
+                      <button className='px-4 py-2 text-white capitalize rounded-sm bg-orange hover:bg-opacity-80'>
+                        Xem giỏ hàng
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              }
+            >
+              <Link to='/'>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  fill='none'
+                  viewBox='0 0 24 24'
+                  strokeWidth={1.5}
+                  stroke='currentColor'
+                  className='w-8 h-8'
+                >
+                  <path
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                    d='M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z'
+                  />
+                </svg>
+              </Link>
+            </Popover>
           </div>
         </div>
       </div>
