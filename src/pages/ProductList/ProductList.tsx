@@ -12,7 +12,7 @@ export default function ProductList() {
           </div>
           <div className='col-span-9'>
             <SortProductList />
-            <div className='grid grid-cols-2 mt-6 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap3'>
+            <div className='grid grid-cols-2 gap-3 mt-6 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5'>
               {Array(30)
                 .fill(0)
                 .map((_, index) => (
